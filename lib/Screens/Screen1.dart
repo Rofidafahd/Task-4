@@ -51,7 +51,7 @@ class _Screen1State extends State<Screen1> {
                         });
                       },
                     ),
-                    const SizedBox(width: 15),
+                    SizedBox(width: 15),
                     GenderCard(
                       icon: Icons.female,
                       label: "Female",
