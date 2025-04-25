@@ -238,7 +238,7 @@ class _Screen1State extends State<Screen1> {
                   ],
                 ),
               ),
-              SizedBox(height: 15),
+              SizedBox(height: 13),
               GestureDetector(
                 onTap: () {
                   Navigator.push(
