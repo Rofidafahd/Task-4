@@ -34,7 +34,7 @@ class Screen2 extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              SizedBox(height: 5),
+              SizedBox(height: 6),
               // Circle BMI Display
               Container(
                 height: 200,
@@ -114,7 +114,7 @@ class Screen2 extends StatelessWidget {
               SizedBox(height: 5),
               // User Info Row
               Padding(
-                padding:EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
